@@ -5,11 +5,11 @@
 //
 // Fardad Soleimanloo, Chris Szalwinski
 // August 25 2011
-// Version 1.0
+// Version 1.0 
 
 /* Virtual Key Codes */
 
-#define TAB       '\t'
+#define TAB       '\t' 
 #define BACKSPACE '\b'
 #define ALARM     '\a'
 #define ESCAPE    27

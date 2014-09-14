@@ -317,7 +317,7 @@ int Console::getKey() {
             case KEY_F(3):  key = F(3);   break;
             case KEY_F(4):  key = F(4);   break;
             case KEY_F(5):  key = F(5);   break;
-            case KEY_F(6):  key = F(6);   break;
+            case KEY_F(6):  key = F(6);   break; 
             case KEY_F(7):  key = F(7);   break;
             case KEY_F(8):  key = F(8);   break;
             case KEY_F(9):  key = F(9);   break;

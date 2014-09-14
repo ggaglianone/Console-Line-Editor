@@ -1,12 +1,12 @@
+//Console Line Edit.cpp by Gabriel Gaglianone
 #define _CRT_SECURE_NO_WARNINGS
-
+#include <iostream>
 #include <cstring>
-#include "console.h"
+#include <stdlib.h>
 #include "consoleplus.h"
 #include "keys.h"
-
 using namespace std;
-using namespace cio;
+namespace cio{
 
 void display(const char *str, int row, int col, int fieldLen)
 {
@@ -15,7 +15,7 @@ void display(const char *str, int row, int col, int fieldLen)
 	int len = std::strlen(str);
 	int i = 0;
 
-	if(fieldLen <= 0 || col + fieldLen > console.getCols() || col + len > console.getCols()) {
+	if ((col + fieldLen) > console.getCols()) { 
 		fieldLen = console.getCols() - col;
 	}
 
@@ -177,3 +177,4 @@ int edit(char *str, int row, int col, int fieldLength, int maxStrLength, bool *i
 	delete []originalStr;
 	return key;
 }
+}//End of CIO

@@ -10,7 +10,7 @@
 //
 
 namespace cio {
-
+	 
 // Console holds the state of the Console Input Output Facility
 //
 class Console {
